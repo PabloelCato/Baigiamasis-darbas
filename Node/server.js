@@ -28,7 +28,8 @@ const jwt = require('jsonwebtoken');
 // app.use('/v1/login', login); 
 // app.use('/v1/register', register);
 
-
+app.use(express.json());   
+app.use(cors());
 
 dotenv.config();
 
