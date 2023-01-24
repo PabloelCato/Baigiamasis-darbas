@@ -18,5 +18,3 @@ ir isirašome npx install react
 ir kai baigs isirašineti npm start
 ir turetų išmesti i tutulini puslapį su login ir register forma.
  
-# Build
-TODO: Describe and show how to build your code.
