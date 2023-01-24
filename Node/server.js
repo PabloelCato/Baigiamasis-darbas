@@ -12,8 +12,23 @@ const { error } = require("console");
 const { title } = require("process");
 const jwt = require('jsonwebtoken');
 
-app.use(express.json());   
-app.use(cors());
+// const { addcar, addspecial, deletecar, 
+//   deletespecial, getspecial, putcar, login, register } = require('./Routes/v1');
+
+
+// app.use(express.json());   
+// app.use(cors());
+
+// app.use('/v1/addcar', addcar); 
+// app.use('/v1/addspecial', addspecial); 
+// app.use('/v1/deletecar', deletecar); 
+// app.use('/v1/deletespecial', deletespecial); 
+// app.use('/v1/getspecial', getspecial); 
+// app.use('/v1/putcar', putcar); 
+// app.use('/v1/login', login); 
+// app.use('/v1/register', register);
+
+
 
 dotenv.config();
 
@@ -32,7 +47,9 @@ app.listen(3001, 'localhost', () => {
     console.log('Server is running');
   });
   
-  let encodeUrl = parseUrl.urlencoded({ extended: false });
+
+
+    let encodeUrl = parseUrl.urlencoded({ extended: false });
 
 
 app.post("/register", encodeUrl, async (req, res) => {
