@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cars {
+  display: flex;
+  background-color: rgb(73, 73, 73);
+  height: 100vh;
+}
+  .car {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+    img {
+      width: 500px;
+      height: 400px;
+      object-fit: cover;
+      background-color: antiquewhite;
+    }
+
+    button {
+      padding: 3px 10px;
+      background-color: white;
+      cursor: pointer;
+    }
+    .delete {
+      border: 3spx solid rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      }
+      .delete:hover {
+        background-color: rgb(0, 255, 21);
+      }
+         .specials {
+          display: flex;
+        }
+            img {
+              width: 300px;
+              height: 400px;
+              object-fit: cover;
+            }
+      
+            .delete {
+              border: 3spx solid rgb(0, 0, 0);
+              color: rgb(0, 0, 0);
+              background-color: rgb(255, 255, 255);
+              }
+              .delete:hover {
+                background-color: rgb(0, 255, 21);
+              }
+
+              .register, .login {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                background-color: rgb(134, 134, 134);
+              }
+
+
+              input {
+                padding: 10px;
+                border: none;
+                border-bottom: 1px solid gray;
+              }
+              form {
+                display: flex;
+                flex-direction: column;
+                padding: 80px;
+                background-color: white;
+                width: 500px;
+                gap: 20px;
+              }
+              .Home {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                background-color: aquamarine;
+              } 
+          .buttoncars{
+            height: 10px;
+          }
+          .specials {
+            display: flex;
+            background-color: rgb(73, 73, 73);
+            height: 100vh;
+          }
+          .special {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+          }
+
+            .car {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 10px;
+            }
+        .h1{
+          align-items: center;
+        }
+        .navbar{
+          padding: 10px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #282c34;
+        }
+        .links{
+          display: flex;
+          align-items: center;
+          gap: 150px;
+
+        }
+      h1.h1car{
+        background-color: #282c34;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        flex-direction: column;
+      }
+      h1.h1special{
+        background-color: #282c34;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        flex-direction: column;
+        
+      }
+    button.listing{
+      background-color: #282c34;
+      text-decoration: none;
+      color: aliceblue;
+      
+    }
+    button.exotic{
+      background-color: #282c34;
+      text-decoration: none;
+      color: aliceblue;
+      
+    }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+  
