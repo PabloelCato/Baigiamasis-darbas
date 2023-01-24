@@ -309,20 +309,3 @@ app.post('/special', async (req, res) => {
           res.send(JSON.stringify(error));
         }
       });
-
-
-
-
-
-
-// const { login, register } = require('./routes/v1/');
-
-// app.use(express.json());
-// app.use(cors());
-
-// app.use('/v1/register/', register);
-// app.use('/v1/login/', login);
-
-// app.get('/', (req, res) => {
-//   res.send({ msg: 'Server is running' });
-// });
